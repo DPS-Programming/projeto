@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <title>Nota 1</title>
 </head>
+    <link rel="stylesheet" href="style.css">
 <body>
 
     <h1>nota 1</h1>
-    <h4>seu texto e salvo automaticamente</h4>
+    <h4>Seu texto será salvo automaticamente em seu navegador, favor não deletar cookies!</h4>
+        <div class="container">
     <textarea id="nota" rows="38" cols="110" placeholder="Digite aqui"></textarea>
+</div>
+
     <button> voltar<a href=""></a> </button>
 
     <script>
         const campo = document.getElementById('nota');
 
-        // Carrega o texto antigo se existir
         campo.value = localStorage.getItem('textoSalvo') || '';
 
-        // Salva o texto a cada letra digitada
         campo.addEventListener('input', () => {
             localStorage.setItem('textoSalvo', campo.value);
         });
@@ -26,4 +28,3 @@
 
 </body>
 </html>
-
