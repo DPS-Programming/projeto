@@ -1,1 +1,29 @@
-bleeghhhhh
+h1 {
+  text-align: center;
+  color: #a9a8be;
+  border: 5px solid #a9a8be;
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: : inline-block;
+  background-color: #463a59;
+}
+
+h4 {
+  text-align: center;
+  color: #a9a8be;
+}
+
+body {
+ 
+  border: 5px solid #a9a8be;
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: : inline-block;
+  background-color:   #20244d;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center;     /* Alinha verticalmente (se o container tiver altura) */
+}
