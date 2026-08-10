@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Nota 1</title>
+</head>
+<body>
+
+    <h1>nota 1</h1>
+    <h4>seu texto e salvo automaticamente</h4>
+    <textarea id="nota" rows="38" cols="110" placeholder="Digite aqui"></textarea>
+    <button> voltar<a href=""></a> </button>
+
+    <script>
+        const campo = document.getElementById('nota');
+
+        // Carrega o texto antigo se existir
+        campo.value = localStorage.getItem('textoSalvo') || '';
+
+        // Salva o texto a cada letra digitada
+        campo.addEventListener('input', () => {
+            localStorage.setItem('textoSalvo', campo.value);
+        });
+
+    </script>
+
+</body>
+</html>
+
