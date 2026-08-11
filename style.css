@@ -1,11 +1,20 @@
 h1 {
   text-align: center;
   color: #a9a8be;
-  border: 5px solid #a9a8be;
+  border: 2px solid #a9a8be;
   border-radius: 15px;
   padding: 10px 20px;
   display: : inline-block;
   background-color: #463a59;
+}
+
+p {
+  color: #a9a8be;
+    width: fit-content;
+  margin:0 auto;
+   border: 2px solid #a9a8be;
+  border-radius: 5px;
+
 }
 
 h4 {
@@ -13,9 +22,13 @@ h4 {
   color: #a9a8be;
 }
 
+header h1 {
+  text-align: center;
+}
+
 body {
  
-  border: 5px solid #a9a8be;
+  border: 2px solid #a9a8be;
   border-radius: 15px;
   padding: 10px 20px;
   display: : inline-block;
@@ -24,6 +37,5 @@ body {
 
 .container {
   display: flex;
-  justify-content: center; /* Alinha horizontalmente */
-  align-items: center;     /* Alinha verticalmente (se o container tiver altura) */
-}
+  justify-content: center; 
+  align-items: center;    
